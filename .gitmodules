@@ -1,0 +1,3 @@
+[submodule "pico_shared"]
+	path = pico_shared
+	url = https://github.com/jeremu2907/pico_shared.git
