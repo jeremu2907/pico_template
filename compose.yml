@@ -6,7 +6,6 @@ services:
     volumes:
       - ./main.cpp/:/root/app/main.cpp:ro
       - ./build:/root/app/build
-      - ./BoardType.h:/root/pico_lib/include/BoardType.h:ro
       - ./CMakeLists.txt:/root/app/CMakeLists.txt
       - ./pico_lib:/root/app/pico_lib
     
